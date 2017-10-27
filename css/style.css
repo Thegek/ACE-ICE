@@ -1,0 +1,636 @@
+        
+        /*Fonts*/
+
+@font-face{
+font-family: AvenirNextBold;
+src:url(../fonts/AvenirNext/AvenirNext-Bold.ttf);
+src:url(../fonts/AvenirNext/AvenirNext-Bold.eot),
+url(../fonts/AvenirNext/AvenirNext-Bold.woff2) format("woff2"),
+url(../fonts/AvenirNext/AvenirNext-Bold.woff) format("woff"),
+font-weight:700;
+font-style:normal;
+}
+
+@font-face{
+font-family: "FuturaPTDemi";
+src:url(../fonts/FuturaPT/FUTURAPTDEMI.OTF),
+url(../fonts/FuturaPT/FUTURAPTDEMIOBLIQUE.OTF);
+font-weight:600;
+font-style:normal;
+}
+
+@font-face {
+font-family: "FuturaPTBold";
+src: url("../fonts/FuturaPT/FUTURABOLD.TTF"),
+url("../fonts/Futura PT/FUTURAPTBOLD.OTF");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: "FuturaPTMedium";
+src: url("../fonts/FuturaPT/FUTURAPTMEDIUM.OTF"),
+url("../fonts/FuturaPT/FUTURAPTMEDIUMOBLIQUE.OTF");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: "FuturaPTHeavy";
+src: url("../fonts/FuturaPT/FUTURAPTHEAVY.OTF"),
+url("../fonts/FuturaPT/FUTURAPTHEAVYOBLIQUE.OTF");
+font-weight: bold;
+font-style: normal;
+}
+
+@font-face {
+font-family: "PTSansRegular";
+src: url("../fonts/PTSansRegular/PTSansRegular.ttf"),
+url("../fonts/PTSansRegular/PTSansRegular.eot"),
+url("../fonts/PTSansRegular/PTSansRegular.woff");
+font-weight: bold;
+font-style: normal;
+}
+
+				/*Общие стили*/
+
+*, *:before, *:after {
+box-sizing: border-box;
+}					
+body{
+font-family: PTSansRegular, Helvetica, sans-serif;
+margin: 0;	
+}
+a{
+text-decoration: none;
+}
+li{
+text-transform: uppercase;
+}
+.container{
+display: flex;	
+flex-direction: column;
+justify-content: space-between;	
+align-items: center;
+}
+.btn{
+border: 2px solid #000;
+padding: 10px;
+text-decoration: none;
+text-transform: uppercase;
+color: #6bc988;
+}
+
+
+										/*Промо блок*/
+
+.promo{	
+height: 100vh;
+min-height: 600px;
+padding-top: 100px;
+padding-bottom: 350px;	
+background-image: url(../img/Promo-bg.jpg);
+-webkit-background-size: cover;
+background-size: cover;
+background-position: center bottom;		
+color: white;
+}
+.promo h1{
+font-size: 50px;
+font-family: "FuturaPTBold", sans-serif;	
+width: 90%;
+}
+.promo span{
+margin-top: 30px;
+font-size: 38px;
+display: block;
+font-family: 'FuturaPTDemi', sans-serif;
+font-weight: normal;
+}
+
+													/*Шапка*/
+
+.header-wrapper{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 18vh;
+align-items: center;
+}
+.page-header-wrap{
+display: flex;
+height: 18vh;
+justify-content: space-between;
+align-items: center;	
+width: 90%	;	
+}
+
+.logo img{	
+height: 55px;
+width: 159px;	
+}
+.menu-head{	
+width: 50%;
+}
+.menu-head ul{
+display: flex;
+justify-content: space-around;	
+list-style: none;	
+}
+
+.menu-head-link{
+font-family: FuturaPTMedium, sans-serif;
+font-size: 15px;
+color: #000;
+text-decoration: none;
+padding-bottom: 5px;
+transition: all .2s ease;
+}
+.menu-head-link:hover{
+	border-bottom: 3px solid #74e196;
+}
+
+.wrap-nav-btn{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 30%;
+}
+
+.phone{
+font-family:FuturaPTDemi, sans-serif ;
+font-size: 22px;
+color: #000;
+
+}
+.button{
+font-family: FuturaPTHeavy, sans-serif;
+font-size: 15px;
+text-transform: uppercase;
+color: #74e196;
+padding: 10px 10px;
+margin-left: 50px;	
+border: 2px solid #000;
+transition: all .5s ease;
+}
+.button:hover{
+	background-color: #74e196;
+	color: #fff;
+
+}
+
+
+		/*Услуги*/
+
+
+.services-items{
+display: flex;
+justify-content: flex-start;
+align-items: flex-start;
+width: 90%;
+padding-top: 20px;
+}
+.services-col1{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 30%;
+margin-right: 68px;
+}
+.services-col2{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+width: 58%;
+}
+.services-item{
+display: flex;
+justify-content: flex-start;
+flex-direction: column;	
+}
+.services-row{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 110%;
+margin-bottom: 50px;
+}
+.services-item-wrap{
+display: flex;
+justify-content: space-around;
+}
+.services-item-content{
+display: flex;
+flex-direction: column;
+padding-left: 10px;
+}
+.services-item-content h3{
+padding: 0;
+}
+.services p{
+font-family: FuturaPTMedium, sans-serif;
+font-size: 20px;
+}
+.tittle{
+margin: 0;
+font-family: FuturaPTDemi, sans-serif;
+font-size: 40px;
+padding-top: 50px;
+}
+.services-col1 h3{
+margin-top: 50px;
+padding: 0;
+}
+.services-classes{
+display: flex;
+justify-content: space-between;
+-ms-align-items: center;
+	align-items: center;	
+}
+.services-item-link{
+background-image: url(../img/sprite.png);
+width: 41px;
+height: 31px;
+background-position: -5px -5px;
+}
+.serv_img{
+width: 360px;
+height: 244px;
+}
+.serv-item-title{
+font-family: FuturaPTMedium, sans-serif;
+font-size: 20px;
+margin: 0;
+padding-left: 10px;
+}
+
+
+					/*Преимущества*/
+.advantages{
+padding-bottom: 72px;
+}
+.advantages-tittle{
+font-family:'FuturaPTDemi', sans-serif;
+font-size: 40px;
+margin-bottom: 80px;
+}
+.advantages-list{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+align-items: center;
+width: 90%;
+}
+.advantages-item{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+width: 350px;
+min-height: 250px;
+text-align: center;
+padding-bottom: 20px;	
+}
+
+.advantages-item p{
+font-size: 15px;
+text-align: left;
+line-height: 1.5;
+}
+.advantages-row{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+}
+.adv-item-tittle{
+margin: 0;
+}
+.adv-item-finger{	
+background-image: url(../img/sprite.png);
+background-repeat: no-repeat;
+background-position: -179px -95px;
+width: 90px;
+height: 90px;
+}
+.adv-item-diplom{
+background-image: url(../img/sprite.png);
+width: 80px;
+height: 90px;
+background-position: -226px -5px;
+background-repeat: no-repeat;
+}
+.adv-item-transfer{
+background-image: url(../img/sprite.png);
+background-position: -46px -5px;
+background-repeat: no-repeat;
+width: 80px;
+height: 90px;
+}
+.adv-item-schedule{
+background-image: url(../img/sprite.png);
+background-position: -136px -5px;
+background-repeat: no-repeat;
+width: 80px;
+height: 90px;
+}
+.adv-item-inventory{
+background-image: url(../img/sprite.png);
+background-position: -89px -95px;
+background-repeat: no-repeat;
+width: 80px;
+height: 90px;
+}
+.adv-item-security{
+background-image: url(../img/sprite.png);
+background-position: -5px -185px;
+background-repeat: no-repeat;
+width: 80px;
+height: 90px;	
+}
+
+							/*Скидки на абонемент*/
+
+.discounts{
+background-image: url(../img/discounts-bg.jpg);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;	
+color: #fff;
+font-family:'FuturaPTDemi', sans-serif;	
+}
+.discounts-overlay{
+background-color: rgba(0,0,0,.4);
+}
+.discounts>.container{
+border-top: 3px solid rgba(360,360,360,.7);
+border-bottom: 3px solid rgba(360,360,360,.7);
+}
+.tettle-white{
+color: #fff;	
+font-size: 40px;
+
+}
+.discounts-items{
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+-ms-align-items: center;
+align-items: center;
+width: 90%;
+padding-bottom: 45px;
+}
+.discounts-item-wrap{
+display: flex;
+flex-direction: row;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+width: 100%;
+}
+.discounts-item{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 0 25px;
+width: 25%;
+height: 130px;
+}
+.discounts-item h3{
+font-family:'FuturaPTDemi', sans-serif;
+font-size: 22px;
+margin-bottom: 0;
+}
+.discounts-item p{
+font-size: 20px;
+line-height: 1.1;
+}
+.discounts-item span{
+color: #6bc988;
+}
+.button-black{
+text-decoration: none;
+text-transform: uppercase;
+font-family: ;
+color: #6bc988;
+padding: 5px 15px;
+border: 2px solid #fff;
+font-family:'FuturaPTDemi', sans-serif;
+font-size: 15px;
+margin-top: 30px;
+}
+
+
+					/*Команда*/
+
+.team{
+background-image: url(../img/bg-team.png);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+}
+.team-tittle{
+text-align: center;
+font-family:'FuturaPTDemi', sans-serif;
+font-size: 40px;
+}
+.team-wrapp{
+display: flex;
+flex-direction: column;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+width: 90%;
+height: 100vh;
+}
+.team-wrapp p{
+font-family: PTSansRegular, sans-serif;
+font-size: 18px;
+text-align: center;
+width: 70%;
+padding-top: 500px;
+margin-bottom: 100px;
+margin-top: 0;
+}
+
+					/*Сообщество*/
+
+.community-column{
+display: flex;
+flex-direction: column;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+width: 90%;
+padding: 50px 0;
+}
+.community-row{
+display: flex;
+flex-direction: row;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+width: 100%;
+}
+.community-up{
+display: flex;
+flex-direction: column;
+justify-content: center;
+-ms-align-items: center;
+align-items: center;
+text-align: center;
+width: 100%;
+}
+.community-up p{
+font-family: PTSansRegular, sans-serif;
+font-size: 18px;
+line-height: 1.2;
+margin-bottom: 40px;
+}
+.comm-tittle{
+font-family:'FuturaPTDemi', sans-serif;
+font-size: 40px;
+padding-top: 30px;
+}
+.comm-gallery{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+-ms-align-items: baseline;
+align-items: baseline;
+width: 97%;
+transition: all .5s ease;
+}
+.comm-gallery img{
+width: 180px;
+height: 180px;	
+}
+
+
+
+									/*Подвал*/
+
+footer{
+background-image: url(../img/background-footer.png);
+background-repeat: no-repeat;
+-webkit-background-size: cover;
+background-size: cover;
+}
+.footer-overlay{
+background-color: rgba(0,0,0,.2);
+}
+.up{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+-ms-align-items: center;
+align-items: center;
+width: 90%;
+padding-top: 50px;
+}
+.social_networks{
+display: flex;
+flex-direction: row;
+justify-content: space-around;	
+-ms-align-items: center;
+align-items: center;
+width: 30%;
+height: 35px;
+list-style: none;
+}
+.social_networks a{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	width: 32px;
+height: 32px;
+
+}
+.foot_you{
+width: 32px;
+height: 32px;
+background-image: url(../img/sprite.png);
+background-position: -5px -137px;
+}
+
+.foot_inst{
+width: 32px;
+height: 32px;
+background-image: url(../img/sprite.png);
+background-position: -47px -95px;
+}
+.foot_fac{
+width: 32px;
+height: 32px;
+background-image: url(../img/sprite.png);
+background-position: -5px -95px;
+}
+.foot_vk{
+width: 32px;
+height: 32px;
+background-image: url(../img/sprite.png);
+background-position: -269px -95px;
+}
+.social_networks-hover{
+	background-color: transparent;
+}
+.social_networks-hover:hover{
+	background-color: rgba(66,66,66,.3);
+	border-radius: 20%; 
+}
+.phone-mail-wrapp{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+.mail{
+	text-decoration: none;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 20px;
+	color: #000;
+}
+.down{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	width: 90%;
+	padding: 20px 0;
+	font-family: FuturaPTDemi,sans-serif;
+}
+.down p{
+	line-height: 1.4;
+	font-size: 15px;
+}
+.menu-foot{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	padding: 0;
+	}
+.menu-foot-link{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: right;
+	margin-left: 55px;
+	}
+	.menu-foot-link a{
+		color: #333333;
+		transition: all .3s ease;
+	}
+	.menu-foot-link a:hover{
+		color: #000;
+	}
