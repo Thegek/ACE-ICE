@@ -782,12 +782,12 @@ footer{
 .istructor-btn-wrapp{
 	display: flex;
 	flex-direction: column;
-	}
+}
 .istructor-profile-item-btn{
-		font-family: FuturaPTHeavy, sans-seriff;
-		min-width: 140px;
-		min-height: 45px;
-		margin-top: 14px;
+	font-family: FuturaPTHeavy, sans-seriff;
+	min-width: 140px;
+	min-height: 45px;
+	margin-top: 14px;
 }
 .istructor-profile-item-like{
 	font-family: FuturaPtMedium, sans-seriff;
@@ -835,10 +835,64 @@ footer{
 	margin-right: 10px;
 }
 .reviews-content{
- 	font-family: FuturaPtMedium, sans-seriff;
+	font-family: FuturaPtMedium, sans-seriff;
 	font-size: 17px;
 	line-height: 1.2;
- }
+}
 .instruct-gallery-down{
 	padding: 55px 0;
+}
+
+
+/*Программы*/
+.program_select{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+}
+.prog-slect-title{
+	font-family: FuturaPTDemi, sans-seriff;
+	font-size: 40px;
+}
+.prog-select-table{
+	width: 100%;	
+	border-collapse: collapse;
+	table-layout: auto;
+	border-spacing: 3px;	
+	display: table;
+}
+.prog-select-table td{
+	border: 2px solid #000;
+	line-height: 2.5;
+	text-align: left;
+	padding: 0;
+	padding-left: 2px;
+}
+.prog-select-table span{
+	font-family: PTSansRegular, sans-seriff;
+	font-size: 17px;
+}
+.caption{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 20px;
+	line-height: 2;
+	text-align: left;	
+}
+
+.btn-table{
+	font-family: FuturaPTHeavy, sans-seriff;
+	font-size: 15px;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #74e196;
+	transition: all 0.5s ease;
+	padding-left: 70px;
+}
+.btn-table:hover{
+	background-color: #74e196;
+	color: #fff;
 }
