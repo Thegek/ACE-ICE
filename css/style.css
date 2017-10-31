@@ -734,3 +734,63 @@ footer{
 .instruct-gallery-link:active:before{
 	background-color: rgba(109, 231, 147, .4);
 }
+.instructor-info{
+	padding-top: 50px;
+}
+.instructor-wrapp{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 90%;
+}
+.instruct-profile-img{
+	background-image: url(../img/instruct-Konstantin.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	min-width: 270px;
+	min-height: 270px;
+}
+.istructor-info-tittle{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 30px;
+	margin: 0;
+}
+.istructor-profile-wrapp{
+	width: 42%;
+}
+.instr-prof-wrapp{
+	display: flex;
+	justify-content: space-between;
+	font-family: FuturaPTDemi, sans-seriff;
+	font-size: 20px;
+	text-align: center;
+}
+.istructor-btn-wrapp{
+	display: flex;
+	flex-direction: column;
+	}
+.istructor-profile-item-btn{
+		font-family: FuturaPTHeavy, sans-seriff;
+		min-width: 140px;
+		min-height: 45px;
+		margin-top: 14px;
+}
+.istructor-profile-item-like{
+	font-family: FuturaPtMedium, sans-seriff;
+	font-size: 20px;		
+}
+.instr-link{
+	color: #111111;
+}
+.instr-link-border{
+	display: flex;
+	justify-content: space-between;
+	width: 45%;
+	align-items: center;
+	border: 2px solid #000;
+	padding: 10px 10px;	
+}
+.instructor-education_video{
+	display: flex;
+	justify-content: space-between;
+}
