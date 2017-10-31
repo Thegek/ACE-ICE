@@ -1,150 +1,152 @@
         
-        /*Fonts*/
+/*Fonts*/
 
 @font-face{
-font-family: AvenirNextBold;
-src:url(../fonts/AvenirNext/AvenirNext-Bold.ttf);
-src:url(../fonts/AvenirNext/AvenirNext-Bold.eot),
-url(../fonts/AvenirNext/AvenirNext-Bold.woff2) format("woff2"),
-url(../fonts/AvenirNext/AvenirNext-Bold.woff) format("woff"),
-font-weight:700;
-font-style:normal;
+	font-family: AvenirNextBold;
+	src:url(../fonts/AvenirNext/AvenirNext-Bold.ttf);
+	src:url(../fonts/AvenirNext/AvenirNext-Bold.eot),
+	url(../fonts/AvenirNext/AvenirNext-Bold.woff2) format("woff2"),
+	url(../fonts/AvenirNext/AvenirNext-Bold.woff) format("woff"),
+	font-weight:700;
+	font-style:normal;
 }
 
 @font-face{
-font-family: "FuturaPTDemi";
-src:url(../fonts/FuturaPT/FUTURAPTDEMI.OTF),
-url(../fonts/FuturaPT/FUTURAPTDEMIOBLIQUE.OTF);
-font-weight:600;
-font-style:normal;
+	font-family: "FuturaPTDemi";
+	src:url(../fonts/FuturaPT/FUTURAPTDEMI.OTF),
+	url(../fonts/FuturaPT/FUTURAPTDEMIOBLIQUE.OTF);
+	font-weight:600;
+	font-style:normal;
 }
 
 @font-face {
-font-family: "FuturaPTBold";
-src: url("../fonts/FuturaPT/FUTURABOLD.TTF"),
-url("../fonts/Futura PT/FUTURAPTBOLD.OTF");
-font-weight: bold;
-font-style: normal;
+	font-family: "FuturaPTBold";
+	src: url("../fonts/FuturaPT/FUTURABOLD.TTF"),
+	url("../fonts/Futura PT/FUTURAPTBOLD.OTF");
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-font-family: "FuturaPTMedium";
-src: url("../fonts/FuturaPT/FUTURAPTMEDIUM.OTF"),
-url("../fonts/FuturaPT/FUTURAPTMEDIUMOBLIQUE.OTF");
-font-weight: bold;
-font-style: normal;
+	font-family: "FuturaPTMedium";
+	src: url("../fonts/FuturaPT/FUTURAPTMEDIUM.OTF"),
+	url("../fonts/FuturaPT/FUTURAPTMEDIUMOBLIQUE.OTF");
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-font-family: "FuturaPTHeavy";
-src: url("../fonts/FuturaPT/FUTURAPTHEAVY.OTF"),
-url("../fonts/FuturaPT/FUTURAPTHEAVYOBLIQUE.OTF");
-font-weight: bold;
-font-style: normal;
+	font-family: "FuturaPTHeavy";
+	src: url("../fonts/FuturaPT/FUTURAPTHEAVY.OTF"),
+	url("../fonts/FuturaPT/FUTURAPTHEAVYOBLIQUE.OTF");
+	font-weight: bold;
+	font-style: normal;
 }
 
 @font-face {
-font-family: "PTSansRegular";
-src: url("../fonts/PTSansRegular/PTSansRegular.ttf"),
-url("../fonts/PTSansRegular/PTSansRegular.eot"),
-url("../fonts/PTSansRegular/PTSansRegular.woff");
-font-weight: bold;
-font-style: normal;
+	font-family: "PTSansRegular";
+	src: url("../fonts/PTSansRegular/PTSansRegular.ttf"),
+	url("../fonts/PTSansRegular/PTSansRegular.eot"),
+	url("../fonts/PTSansRegular/PTSansRegular.woff");
+	font-weight: bold;
+	font-style: normal;
 }
 
-				/*Общие стили*/
+/*Общие стили*/
 
 *, *:before, *:after {
-box-sizing: border-box;
+	box-sizing: border-box;
 }					
 body{
-font-family: PTSansRegular, Helvetica, sans-serif;
-margin: 0;	
+	font-family: PTSansRegular, Helvetica, sans-serif;
+	margin: 0;	
 }
 a{
-text-decoration: none;
+	text-decoration: none;
 }
 li{
-text-transform: uppercase;
+	text-transform: uppercase;
 }
 .container{
-display: flex;	
-flex-direction: column;
-justify-content: space-between;	
-align-items: center;
+	display: flex;
+	width: 1160px;
+	margin: 0 auto;
+	flex-direction: column;
+	justify-content: space-between;	
+	align-items: center;
 }
 .btn{
-border: 2px solid #000;
-padding: 10px;
-text-decoration: none;
-text-transform: uppercase;
-color: #6bc988;
+	border: 2px solid #000;
+	padding: 10px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #6bc988;
 }
 
 
-										/*Промо блок*/
+/*Промо блок*/
 
 .promo{	
-height: 100vh;
-min-height: 600px;
-padding-top: 100px;
-padding-bottom: 350px;	
-background-image: url(../img/Promo-bg.jpg);
--webkit-background-size: cover;
-background-size: cover;
-background-position: center bottom;		
-color: white;
+	height: 100vh;
+	min-height: 600px;
+	padding-top: 100px;
+	padding-bottom: 350px;	
+	background-image: url(../img/Promo-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center bottom;		
+	color: white;
 }
 .promo h1{
-font-size: 50px;
-font-family: "FuturaPTBold", sans-serif;	
-width: 90%;
+	font-size: 50px;
+	font-family: "FuturaPTBold", sans-serif;	
+	width: 100%;
 }
 .promo span{
-margin-top: 30px;
-font-size: 38px;
-display: block;
-font-family: 'FuturaPTDemi', sans-serif;
-font-weight: normal;
+	margin-top: 30px;
+	font-size: 38px;
+	display: block;
+	font-family: 'FuturaPTDemi', sans-serif;
+	font-weight: normal;
 }
 
-													/*Шапка*/
+/*Шапка*/
 
 .header-wrapper{
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-height: 18vh;
-align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 18vh;
+	align-items: center;
 }
 .page-header-wrap{
-display: flex;
-height: 18vh;
-justify-content: space-between;
-align-items: center;	
-width: 90%	;	
+	display: flex;
+	height: 18vh;
+	justify-content: space-between;
+	align-items: center;	
+	width: 100%	;	
 }
 
 .logo img{	
-height: 55px;
-width: 159px;	
+	height: 55px;
+	width: 159px;	
 }
 .menu-head{	
-width: 50%;
+	width: 50%;
 }
 .menu-head ul{
-display: flex;
-justify-content: space-around;	
-list-style: none;	
+	display: flex;
+	justify-content: space-around;	
+	list-style: none;	
 }
 
 .menu-head-link{
-font-family: FuturaPTMedium, sans-serif;
-font-size: 15px;
-color: #000;
-text-decoration: none;
-padding-bottom: 5px;
-transition: all .2s ease;
+	font-family: FuturaPTMedium, sans-serif;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+	padding-bottom: 5px;
+	transition: all .2s ease;
 }
 .menu-head-link:hover{
 	border-bottom: 3px solid #74e196;
@@ -158,20 +160,20 @@ transition: all .2s ease;
 }
 
 .phone{
-font-family:FuturaPTDemi, sans-serif ;
-font-size: 22px;
-color: #000;
+	font-family:FuturaPTDemi, sans-serif ;
+	font-size: 22px;
+	color: #000;
 
 }
 .button{
-font-family: FuturaPTHeavy, sans-serif;
-font-size: 15px;
-text-transform: uppercase;
-color: #74e196;
-padding: 10px 10px;
-margin-left: 50px;	
-border: 2px solid #000;
-transition: all .5s ease;
+	font-family: FuturaPTHeavy, sans-serif;
+	font-size: 15px;
+	text-transform: uppercase;
+	color: #74e196;
+	padding: 10px 10px;
+	margin-left: 50px;	
+	border: 2px solid #000;
+	transition: all .5s ease;
 }
 .button:hover{
 	background-color: #74e196;
@@ -180,366 +182,366 @@ transition: all .5s ease;
 }
 
 
-		/*Услуги*/
+/*Услуги*/
 
 
 .services-items{
-display: flex;
-justify-content: flex-start;
-align-items: flex-start;
-width: 90%;
-padding-top: 20px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	width: 90%;
+	padding-top: 20px;
 }
 .services-col1{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-width: 30%;
-margin-right: 68px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 30%;
+	margin-right: 68px;
 }
 .services-col2{
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-width: 58%;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	width: 58%;
 }
 .services-item{
-display: flex;
-justify-content: flex-start;
-flex-direction: column;	
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;	
 }
 .services-row{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-width: 110%;
-margin-bottom: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 110%;
+	margin-bottom: 50px;
 }
 .services-item-wrap{
-display: flex;
-justify-content: space-around;
+	display: flex;
+	justify-content: space-around;
 }
 .services-item-content{
-display: flex;
-flex-direction: column;
-padding-left: 10px;
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
 }
 .services-item-content h3{
-padding: 0;
+	padding: 0;
 }
 .services p{
-font-family: FuturaPTMedium, sans-serif;
-font-size: 20px;
+	font-family: FuturaPTMedium, sans-serif;
+	font-size: 20px;
 }
 .tittle{
-margin: 0;
-font-family: FuturaPTDemi, sans-serif;
-font-size: 40px;
-padding-top: 50px;
+	margin: 0;
+	font-family: FuturaPTDemi, sans-serif;
+	font-size: 40px;
+	padding-top: 50px;
 }
 .services-col1 h3{
-margin-top: 50px;
-padding: 0;
+	margin-top: 50px;
+	padding: 0;
 }
 .services-classes{
-display: flex;
-justify-content: space-between;
--ms-align-items: center;
+	display: flex;
+	justify-content: space-between;
+	-ms-align-items: center;
 	align-items: center;	
 }
 .services-item-link{
-background-image: url(../img/sprite.png);
-width: 41px;
-height: 31px;
-background-position: -5px -5px;
+	background-image: url(../img/sprite.png);
+	width: 41px;
+	height: 31px;
+	background-position: -5px -5px;
 }
 .serv_img{
-width: 360px;
-height: 244px;
+	width: 360px;
+	height: 244px;
 }
 .serv-item-title{
-font-family: FuturaPTMedium, sans-serif;
-font-size: 20px;
-margin: 0;
-padding-left: 10px;
+	font-family: FuturaPTMedium, sans-serif;
+	font-size: 20px;
+	margin: 0;
+	padding-left: 10px;
 }
 
 
-					/*Преимущества*/
+/*Преимущества*/
 .advantages{
-padding-bottom: 72px;
+	padding-bottom: 72px;
 }
 .advantages-tittle{
-font-family:'FuturaPTDemi', sans-serif;
-font-size: 40px;
-margin-bottom: 80px;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 40px;
+	margin-bottom: 80px;
 }
 .advantages-list{
-display: flex;
-justify-content: space-between;
-flex-direction: column;
-align-items: center;
-width: 90%;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	width: 90%;
 }
 .advantages-item{
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: space-around;
-width: 350px;
-min-height: 250px;
-text-align: center;
-padding-bottom: 20px;	
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	width: 350px;
+	min-height: 250px;
+	text-align: center;
+	padding-bottom: 20px;	
 }
 
 .advantages-item p{
-font-size: 15px;
-text-align: left;
-line-height: 1.5;
+	font-size: 15px;
+	text-align: left;
+	line-height: 1.5;
 }
 .advantages-row{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-align-items: center;
-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
 }
 .adv-item-tittle{
-margin: 0;
+	margin: 0;
 }
 .adv-item-finger{	
-background-image: url(../img/sprite.png);
-background-repeat: no-repeat;
-background-position: -179px -95px;
-width: 90px;
-height: 90px;
+	background-image: url(../img/sprite.png);
+	background-repeat: no-repeat;
+	background-position: -179px -95px;
+	width: 90px;
+	height: 90px;
 }
 .adv-item-diplom{
-background-image: url(../img/sprite.png);
-width: 80px;
-height: 90px;
-background-position: -226px -5px;
-background-repeat: no-repeat;
+	background-image: url(../img/sprite.png);
+	width: 80px;
+	height: 90px;
+	background-position: -226px -5px;
+	background-repeat: no-repeat;
 }
 .adv-item-transfer{
-background-image: url(../img/sprite.png);
-background-position: -46px -5px;
-background-repeat: no-repeat;
-width: 80px;
-height: 90px;
+	background-image: url(../img/sprite.png);
+	background-position: -46px -5px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 90px;
 }
 .adv-item-schedule{
-background-image: url(../img/sprite.png);
-background-position: -136px -5px;
-background-repeat: no-repeat;
-width: 80px;
-height: 90px;
+	background-image: url(../img/sprite.png);
+	background-position: -136px -5px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 90px;
 }
 .adv-item-inventory{
-background-image: url(../img/sprite.png);
-background-position: -89px -95px;
-background-repeat: no-repeat;
-width: 80px;
-height: 90px;
+	background-image: url(../img/sprite.png);
+	background-position: -89px -95px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 90px;
 }
 .adv-item-security{
-background-image: url(../img/sprite.png);
-background-position: -5px -185px;
-background-repeat: no-repeat;
-width: 80px;
-height: 90px;	
+	background-image: url(../img/sprite.png);
+	background-position: -5px -185px;
+	background-repeat: no-repeat;
+	width: 80px;
+	height: 90px;	
 }
 
-							/*Скидки на абонемент*/
+/*Скидки на абонемент*/
 
 .discounts{
-background-image: url(../img/discounts-bg.jpg);
-background-repeat: no-repeat;
--webkit-background-size: cover;
-background-size: cover;	
-color: #fff;
-font-family:'FuturaPTDemi', sans-serif;	
+	background-image: url(../img/discounts-bg.jpg);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;	
+	color: #fff;
+	font-family:'FuturaPTDemi', sans-serif;	
 }
 .discounts-overlay{
-background-color: rgba(0,0,0,.4);
+	background-color: rgba(0,0,0,.4);
 }
 .discounts>.container{
-border-top: 3px solid rgba(360,360,360,.7);
-border-bottom: 3px solid rgba(360,360,360,.7);
+	border-top: 3px solid rgba(360,360,360,.7);
+	border-bottom: 3px solid rgba(360,360,360,.7);
 }
 .tettle-white{
-color: #fff;	
-font-size: 40px;
+	color: #fff;	
+	font-size: 40px;
 
 }
 .discounts-items{
-display: flex;
-flex-direction: column;
-justify-content: space-around;
--ms-align-items: center;
-align-items: center;
-width: 90%;
-padding-bottom: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	-ms-align-items: center;
+	align-items: center;
+	width: 90%;
+	padding-bottom: 45px;
 }
 .discounts-item-wrap{
-display: flex;
-flex-direction: row;
-justify-content: center;
--ms-align-items: center;
-align-items: center;
-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
 }
 .discounts-item{
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-text-align: center;
-padding: 0 25px;
-width: 25%;
-height: 130px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 0 25px;
+	width: 25%;
+	height: 130px;
 }
 .discounts-item h3{
-font-family:'FuturaPTDemi', sans-serif;
-font-size: 22px;
-margin-bottom: 0;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 22px;
+	margin-bottom: 0;
 }
 .discounts-item p{
-font-size: 20px;
-line-height: 1.1;
+	font-size: 20px;
+	line-height: 1.1;
 }
 .discounts-item span{
-color: #6bc988;
+	color: #6bc988;
 }
 .button-black{
-text-decoration: none;
-text-transform: uppercase;
-font-family: ;
-color: #6bc988;
-padding: 5px 15px;
-border: 2px solid #fff;
-font-family:'FuturaPTDemi', sans-serif;
-font-size: 15px;
-margin-top: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: ;
+	color: #6bc988;
+	padding: 5px 15px;
+	border: 2px solid #fff;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 15px;
+	margin-top: 30px;
 }
 
 
-					/*Команда*/
+/*Команда*/
 
 .team{
-background-image: url(../img/bg-team.png);
-background-repeat: no-repeat;
--webkit-background-size: cover;
-background-size: cover;
+	background-image: url(../img/bg-team.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .team-tittle{
-text-align: center;
-font-family:'FuturaPTDemi', sans-serif;
-font-size: 40px;
+	text-align: center;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 40px;
 }
 .team-wrapp{
-display: flex;
-flex-direction: column;
-justify-content: center;
--ms-align-items: center;
-align-items: center;
-width: 90%;
-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 90%;
+	height: 100vh;
 }
 .team-wrapp p{
-font-family: PTSansRegular, sans-serif;
-font-size: 18px;
-text-align: center;
-width: 70%;
-padding-top: 500px;
-margin-bottom: 100px;
-margin-top: 0;
+	font-family: PTSansRegular, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	width: 70%;
+	padding-top: 500px;
+	margin-bottom: 100px;
+	margin-top: 0;
 }
 
-					/*Сообщество*/
+/*Сообщество*/
 
 .community-column{
-display: flex;
-flex-direction: column;
-justify-content: center;
--ms-align-items: center;
-align-items: center;
-width: 90%;
-padding: 50px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 90%;
+	padding: 50px 0;
 }
 .community-row{
-display: flex;
-flex-direction: row;
-justify-content: center;
--ms-align-items: center;
-align-items: center;
-width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
 }
 .community-up{
-display: flex;
-flex-direction: column;
-justify-content: center;
--ms-align-items: center;
-align-items: center;
-text-align: center;
-width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+	text-align: center;
+	width: 100%;
 }
 .community-up p{
-font-family: PTSansRegular, sans-serif;
-font-size: 18px;
-line-height: 1.2;
-margin-bottom: 40px;
+	font-family: PTSansRegular, sans-serif;
+	font-size: 18px;
+	line-height: 1.2;
+	margin-bottom: 40px;
 }
 .comm-tittle{
-font-family:'FuturaPTDemi', sans-serif;
-font-size: 40px;
-padding-top: 30px;
+	font-family:'FuturaPTDemi', sans-serif;
+	font-size: 40px;
+	padding-top: 30px;
 }
 .comm-gallery{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
--ms-align-items: baseline;
-align-items: baseline;
-width: 97%;
-transition: all .5s ease;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-ms-align-items: baseline;
+	align-items: baseline;
+	width: 97%;
+	transition: all .5s ease;
 }
 .comm-gallery img{
-width: 180px;
-height: 180px;	
+	width: 180px;
+	height: 180px;	
 }
 
 
 
-									/*Подвал*/
+/*Подвал*/
 
 footer{
-background-image: url(../img/background-footer.png);
-background-repeat: no-repeat;
--webkit-background-size: cover;
-background-size: cover;
+	background-image: url(../img/background-footer.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
 }
 .footer-overlay{
-background-color: rgba(0,0,0,.2);
+	background-color: rgba(0,0,0,.2);
 }
 .up{
-display: flex;
-flex-direction: row;
-justify-content: space-between;
--ms-align-items: center;
-align-items: center;
-width: 90%;
-padding-top: 50px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	-ms-align-items: center;
+	align-items: center;
+	width: 100%;
+	padding-top: 50px;
 }
 .social_networks{
-display: flex;
-flex-direction: row;
-justify-content: space-around;	
--ms-align-items: center;
-align-items: center;
-width: 30%;
-height: 35px;
-list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;	
+	-ms-align-items: center;
+	align-items: center;
+	width: 30%;
+	height: 35px;
+	list-style: none;
 }
 .social_networks a{
 	display: flex;
@@ -548,33 +550,33 @@ list-style: none;
 	-ms-align-items: center;
 	align-items: center;
 	width: 32px;
-height: 32px;
+	height: 32px;
 
 }
 .foot_you{
-width: 32px;
-height: 32px;
-background-image: url(../img/sprite.png);
-background-position: -5px -137px;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprite.png);
+	background-position: -5px -137px;
 }
 
 .foot_inst{
-width: 32px;
-height: 32px;
-background-image: url(../img/sprite.png);
-background-position: -47px -95px;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprite.png);
+	background-position: -47px -95px;
 }
 .foot_fac{
-width: 32px;
-height: 32px;
-background-image: url(../img/sprite.png);
-background-position: -5px -95px;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprite.png);
+	background-position: -5px -95px;
 }
 .foot_vk{
-width: 32px;
-height: 32px;
-background-image: url(../img/sprite.png);
-background-position: -269px -95px;
+	width: 32px;
+	height: 32px;
+	background-image: url(../img/sprite.png);
+	background-position: -269px -95px;
 }
 .social_networks-hover{
 	background-color: transparent;
@@ -602,7 +604,7 @@ background-position: -269px -95px;
 	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	padding: 20px 0;
 	font-family: FuturaPTDemi,sans-serif;
 }
@@ -617,7 +619,7 @@ background-position: -269px -95px;
 	-ms-align-items: center;
 	align-items: center;
 	padding: 0;
-	}
+}
 .menu-foot-link{
 	display: flex;
 	flex-direction: row;
@@ -626,11 +628,109 @@ background-position: -269px -95px;
 	align-items: center;
 	text-align: right;
 	margin-left: 55px;
-	}
-	.menu-foot-link a{
-		color: #333333;
-		transition: all .3s ease;
-	}
-	.menu-foot-link a:hover{
-		color: #000;
-	}
+}
+.menu-foot-link a{
+	color: #333333;
+	transition: all .3s ease;
+}
+.menu-foot-link a:hover{
+	color: #000;
+}
+
+
+
+/*Инструкторы*/
+
+.instructors-school{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding-bottom: 20px;
+}						
+.instructors-school-tittle{
+	font-family: FuturaPTDemi, sans-serif;
+	font-size: 40px;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;	
+}
+.instructors__form{
+	position: relative;
+	border: 2px solid #000;
+	display: flex;
+	width: 50%;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+.instructors__search-img{
+	position: absolute;
+	margin-top: 3px;
+	right: 5px;
+	top: 2px;
+	height: 30px;
+	width: 30px;
+}
+.instructors__form-text{
+	width: 100%;
+	padding: 10px;
+	padding-right: 40px;
+	border: none;
+	outline: none;
+}
+.instruct-items{
+	display: flex;
+	width: 100%;
+}
+.instruct-gallery{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.instruct-gallery-text{
+	font-family: FuturaPTMedium, sans-serif;
+	font-size: 20px;
+	color: #fff;
+	position: absolute;
+	width: 100%;
+	left: 20px;
+	bottom: 20px;	
+	transition: all .5s ease;
+}
+.instruct-gallery-link{
+	position: relative;
+}
+
+.instruct-gallery-link:before {
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background-color: rgba(0, 0, 0, .3);
+	transition: all .3s ease;
+
+}
+.instruct-gallery-link:hover .instruct-gallery-text{
+	bottom: -45px; 
+}
+
+.instruct-gallery-link:hover:before{
+	background-color: rgba(0, 0, 0, 0);
+}
+
+.instruct-gallery-img {
+	display: block;
+	width: 100%;
+}
+.instruct-gallery-link:active .instruct-gallery-text{
+	bottom: -40px; 
+}
+.instruct-gallery-link:active:before{
+	background-color: rgba(109, 231, 147, .4);
+}
