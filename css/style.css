@@ -76,11 +76,18 @@ li{
 	align-items: center;
 }
 .btn{
+	font-family: FuturaPTHeavy, sans-seriff;
+	font-size: 15px;
 	border: 2px solid #000;
 	padding: 10px;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: #6bc988;
+	transition: all 0.5s ease;
+}
+.btn:hover{
+	background-color: #74e196;
+	color: #fff;
 }
 
 
@@ -189,7 +196,7 @@ li{
 	display: flex;
 	justify-content: flex-start;
 	align-items: flex-start;
-	width: 90%;
+	width: 100%;
 	padding-top: 20px;
 }
 .services-col1{
@@ -281,7 +288,7 @@ li{
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 }
 .advantages-item{
 	display: flex;
@@ -380,7 +387,7 @@ li{
 	justify-content: space-around;
 	-ms-align-items: center;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	padding-bottom: 45px;
 }
 .discounts-item-wrap{
@@ -398,8 +405,8 @@ li{
 	align-items: center;
 	text-align: center;
 	padding: 0 25px;
-	width: 25%;
-	height: 130px;
+	width: 33%;
+	min-height: 130px;
 }
 .discounts-item h3{
 	font-family:'FuturaPTDemi', sans-serif;
@@ -423,6 +430,11 @@ li{
 	font-family:'FuturaPTDemi', sans-serif;
 	font-size: 15px;
 	margin-top: 30px;
+	transition: all 0.5s ease;
+}
+.button-black:hover{
+	background-color: #74e196;
+	color: #fff;
 }
 
 
@@ -431,8 +443,9 @@ li{
 .team{
 	background-image: url(../img/bg-team.png);
 	background-repeat: no-repeat;
-	-webkit-background-size: cover;
 	background-size: cover;
+	min-height: 581px;
+	width: 100%;
 }
 .team-tittle{
 	text-align: center;
@@ -445,8 +458,8 @@ li{
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
-	width: 90%;
-	height: 100vh;
+	width: 100%;
+	
 }
 .team-wrapp p{
 	font-family: PTSansRegular, sans-serif;
@@ -454,7 +467,7 @@ li{
 	text-align: center;
 	width: 70%;
 	padding-top: 500px;
-	margin-bottom: 100px;
+	margin-bottom: 50px;
 	margin-top: 0;
 }
 
@@ -466,13 +479,13 @@ li{
 	justify-content: center;
 	-ms-align-items: center;
 	align-items: center;
-	width: 90%;
+	width: 100%;
 	padding: 50px 0;
 }
 .community-row{
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: space-between;
 	-ms-align-items: center;
 	align-items: center;
 	width: 100%;
@@ -503,7 +516,7 @@ li{
 	justify-content: space-between;
 	-ms-align-items: baseline;
 	align-items: baseline;
-	width: 97%;
+	width: 100%;
 	transition: all .5s ease;
 }
 .comm-gallery img{
@@ -520,6 +533,7 @@ footer{
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
+
 }
 .footer-overlay{
 	background-color: rgba(0,0,0,.2);
@@ -539,7 +553,7 @@ footer{
 	justify-content: space-around;	
 	-ms-align-items: center;
 	align-items: center;
-	width: 30%;
+	width: 35%;
 	height: 35px;
 	list-style: none;
 }
@@ -580,10 +594,10 @@ footer{
 }
 .social_networks-hover{
 	background-color: transparent;
+	transition: all 0.5s ease;
 }
 .social_networks-hover:hover{
-	background-color: rgba(66,66,66,.3);
-	border-radius: 20%; 
+	opacity: .7;
 }
 .phone-mail-wrapp{
 	display: flex;
@@ -793,4 +807,38 @@ footer{
 .instructor-education_video{
 	display: flex;
 	justify-content: space-between;
+	width: 90%;
+	padding-bottom: 55px;
+}
+.instructor-education-content{
+	font-family: FuturaPtMedium, sans-seriff;
+	font-size: 17px;
+	width: 48%;
+	text-align: left;
+	line-height: 1.2;
+	padding-right: 10px;
+}
+.instructor-education-tittle{
+	font-family: FuturaPTDemi, sans-seriff;
+	font-size: 20px;
+}
+.instructor-reviews{
+	width: 90%;
+	padding: 35px 10px 0 35px;
+	background-image: url(../img/reviews-bg.png);
+	background-size: cover;
+	min-height: 230px;
+}
+.instruct-rev-name{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 20px;
+	margin-right: 10px;
+}
+.reviews-content{
+ 	font-family: FuturaPtMedium, sans-seriff;
+	font-size: 17px;
+	line-height: 1.2;
+ }
+.instruct-gallery-down{
+	padding: 55px 0;
 }
