@@ -904,6 +904,9 @@ footer{
 	color: #000;
 }
 
+
+/*карусель*/
+
 figure{
 	margin: 0;
 }
@@ -974,4 +977,37 @@ figure{
 }
 .carusel-prog-btn{
 	padding: 10px 35px;
+}
+
+/*обратная связь*/
+.Feedback{
+	padding-top: 50px;
+}
+.Feedback-tittle{
+	font-family: FuturaPTDemi, sans-seriff;
+	font-size: 40px;
+}
+.Feedback-form{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+}
+.label-tittle{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.Feedback-label{
+	border: 2px solid #000;
+	min-height: 50px;
+	padding-left: 5px;
+	outline: none;
+}
+
+
+.Feedback-btn{
+	width: 40%;
+	margin: 60px auto;
+	text-align: center;
+
 }
