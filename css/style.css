@@ -51,6 +51,13 @@
 	font-weight: bold;
 	font-style: normal;
 }
+@font-face{
+	font-family: "Rubl";
+	src:url(../fonts/b-rub_arial/alsrubl-arial-bold.ttf),
+	url(../fonts/b-rub_arial/alsrubl-arial-bold.eot);
+	font-weight:600;
+	font-style:normal;
+}
 
 /*Общие стили*/
 
@@ -850,6 +857,7 @@ footer{
 	flex-direction: column;
 	width: 100%;
 	text-align: center;
+	margin-bottom: 50px;
 }
 .prog-slect-title{
 	font-family: FuturaPTDemi, sans-seriff;
@@ -890,9 +898,80 @@ footer{
 	text-transform: uppercase;
 	color: #74e196;
 	transition: all 0.5s ease;
-	padding-left: 70px;
+	padding-left: 100px;
 }
 .btn-table:hover{
-	background-color: #74e196;
+	color: #000;
+}
+
+figure{
+	margin: 0;
+}
+
+.carusel-prog-itm-img{
+	border: 5px solid #74e196;
+	border-radius: 50%;
+	width: 195px;
+	height: 195px;
+}
+
+.carusel-prog-item-img-wrapp{
+	position: relative;
+}
+.carusel-prog-itm-name{
+	width: 15%;
+	font-size: 15px;
+	padding-top: 9px;
+	position: absolute;
+	bottom: 40px;
+	min-width: 200px;
+	min-height: 50px;
+	text-align: center;
+	background-color: #000;
 	color: #fff;
+	line-height: 1.1;
+}
+.carusel-prog-item{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	border: 2px solid #000;
+	padding: 40px 0;
+}
+.carusel-prog-item-info{
+	width: 50%;
+	font-family: PTSansRegular, sans-seriff;
+	font-size: 17px;
+}
+.carusel-prog-item-info span{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 21px;
+}
+.carusel-prog-item-info-tittle{
+	font-family: FuturaPTDemi, sans-seriff;
+	font-size: 30px;
+	margin-top: 0;	
+}
+
+.carusel-prog-item-buy{
+	width: 11.5%;
+}
+.price-program{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 30px;
+	width: 100%;
+	margin-top: 0;
+	letter-spacing: 2px;
+}
+.carusel-prog-link{
+	font-family: FuturaPTMedium, sans-seriff;
+	font-size: 19px;
+	color: #111111;
+	transition: all .3s ease;
+}
+.carusel-prog-link:hover{	
+	border-bottom: 3px solid #74e196;
+}
+.carusel-prog-btn{
+	padding: 10px 35px;
 }
